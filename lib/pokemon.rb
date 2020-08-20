@@ -22,6 +22,6 @@ class Pokemon
     name = poke[1]
     type = poke[2]
     
-    pokemon_inst = Pokemon.new(id: id, name: name, type: type, db: db)
+    pokemon = Pokemon.new(id: id, name: name, type: type, db: db)
   end
 end
